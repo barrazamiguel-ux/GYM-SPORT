@@ -1,0 +1,360 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.header {
+  background:#e74c3c;
+  color: #ffffff;
+  padding:15px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:1em;
+}
+
+.header h1{
+ font-size: 2em;
+ font-family:arial;
+}
+cursor: pointer;
+}
+ .Wl {
+ 	list-style: none; 
+	text-align: center;
+	padding: 1.2%;
+	color: white;	
+
+}
+
+
+#nav{
+	width:60%;
+	background;
+	display: block;
+	margin: auto;
+	height: 450px;
+
+	border:solid #f2f2f2;
+    box-shadow:
+    -6px -6px #839192,
+    -7px -7px #839192,
+    -8px -8px #839192;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+    margin-bottom: 3%;
+    
+}
+
+
+
+#nav #Iniciar{
+	margin-top: 2%;
+	display: block;
+	text-align: center;
+	color:#e74c3c  ;
+	margin-bottom: 0%;
+	font-size: 130%;
+	font-family: arial;
+	margin-right: 40%;
+}
+#nav #Registrarse{
+	margin-right: 35%;
+	padding-top: 0%;
+	display: block;
+	text-align: center;
+	color:black;
+	margin-bottom: 5%;
+	font-size: 75%;
+	
+}
+
+#nav #priemr{
+	float: left;
+	width: 50%;
+	background-color:none;
+}
+#nav #segun{
+	display: block;
+	float: left;	
+	width: 50%;
+	background-color: none;
+}
+#nav  #nombre,#edad,#nav #telefono,#ocupacion,#correo,#contraseña,#nav #sexo{
+    margin-left: 4%;
+	font-family: arial;
+	font-size: 80%;
+	margin-bottom: 4%;
+
+}
+
+#nav #sexo{
+	margin-left: 5%;
+	font-family: arial;
+	font-size: 100%;
+	margin-bottom: 4%;
+
+}
+#nav  #nombre input[type="text"],#telefono input[type="text"],#ocupacion input[type="text"],#correo input[type="text"],#contraseña input[type="text"]{
+	width: 80%;
+	font-size: 140%;
+	border: none;
+    box-shadow:
+     1px 1px #B8C3CA,
+    2px 2px #B8C3CA,
+    3px 3px #B8C3CA;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+}
+#nav  #nombre input[type="text"]:hover,#telefono input[type="text"]:hover,#ocupacion input[type="text"]:hover,#correo input[type="text"]:hover,#contraseña input[type="text"]:hover{
+	width: 80%;
+	border: none;
+    box-shadow:
+    1px 1px #0A507F,
+    2px 2px #0A507F,
+    3px 3px #0A507F;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+ }
+  #edad input[type="number"]{
+    width: 15%;
+    padding: 2% 2%;
+    border: none;
+    box-shadow:
+     1px 1px #B8C3CA,
+    2px 2px #B8C3CA,
+    3px 3px #B8C3CA;
+  
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+    }input[type="file" i] {
+    position: absolute;
+    top: -35px;
+	right: -30px;
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+}
+    #edad input[type="number"]:hover{
+    
+    box-shadow:
+    1px 1px #0A507F,
+    2px 2px #0A507F,
+    3px 3px #0A507F;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+ }
+
+#nav #foto{
+	display: block;
+	margin: auto;
+}
+#nav #foto input[type="text"]{
+	display: block;
+	margin: auto;
+	width: 30%;
+	height: 100px;
+	margin-top: -50px;
+	margin-bottom: 7%;
+}
+
+
+#nav  input[type="submit"]{
+    position: relative;
+ 
+    top: 30px;
+	display: block;
+	margin: auto;
+	width: 25%;
+	height: 35px;
+	background-color: #17A0FB  ;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	color: white;
+	font-size: 150%;
+	font-family: arial;
+	cursor: pointer;
+
+}
+
+#nav input[type="submit"]:hover{
+
+
+
+box-shadow:
+1px 1px #0A507F,
+2px 2px #0A507F,
+3px 3px #0A507F;
+-webkit-transform: translateX(-4px);
+transform: translateX(-4px);
+}
+
+
+
+#segun #cv{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+ #segun #foto{
+    position: relative;
+    left: 15%;
+    margin: 5%;
+    padding: 5%;
+    width: 40%;
+    background-color: #2499e3;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-box-shadow:0px 3px 0px #1a71a9; 
+    cursor: pointer;
+    margin-bottom: 15%;
+
+ } 
+
+#segun #bot{
+    position: absolute;
+    top: 0px;
+    left: 0px;.
+    right: 0px;
+    bottom: 0px;
+    height: 100px;
+    opacity: .7;
+    cursor: pointer;
+ }
+
+
+
+aside {
+	width: 4%;
+	background: none;
+	position: fixed;
+	top: 250px;
+	z-index: 3000;
+}
+
+aside #redes {
+    display: block;
+	margin: auto;
+
+	text-align: center;
+	font-size: 225%;
+	width: 100%;
+	
+	
+}
+aside #redes .icon-mail,.icon-facebook2,.icon-whatsapp{
+
+	font-size: 75%;
+	
+	
+}
+aside #redes .mail{
+	color: white;
+	background: #e74c3c ;
+}
+aside #redes .face{
+	background-color: #3498db; 
+	color: white;
+}
+
+aside #redes .what{
+	background:  #58d68d;
+	color: white;
+
+}
+aside #redes .mail,.face,.what{
+
+	margin-bottom: 4%;
+	padding:5% 5%;
+	cursor: pointer;
+
+}
+
+aside #redes .mail:hover{
+	width: 150%;
+	background: #c0392b;
+
+}
+aside #redes .face:hover{
+	width: 150%;
+	background: #2471a3;
+
+}
+aside #redes .what:hover{
+	width: 150%;
+	background: #1d8348; 
+
+}
+footer {
+	width: 100%;
+	height: 450px;
+	background-color: #e74c3c;
+}
+
+
+footer #mensaje {
+	width: 100%;
+	height: 45px;
+	background-color: #85c1e9
+;
+	opacity: .8;
+}
+
+footer #warmaps{
+	width: 30%;
+	height: 100px;
+	background: ;
+	margin: 3% 5%;
+}
+
+footer #warmaps iframe {
+	width: 100%;
+}
+.ubi{
+	font-family: arial;
+	font-size: 200%;
+	color: white;
+	margin-bottom: 3%;
+}
+
+
+
+.bacantes{
+	display: block;
+	text-align: center;
+    padding-top: .6%;
+	width: 100%;
+	color: black;
+	font-family: arial;
+	font-size: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

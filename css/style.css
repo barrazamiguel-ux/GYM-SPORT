@@ -1,0 +1,151 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.header {
+  background:#e74c3c;
+  color: #ffffff;
+  padding:15px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:1em;
+}
+
+.header h1{
+ font-size: 2em;
+ font-family:arial;
+}
+
+
+.col-1{
+  width: 35%;
+  border:solid #f2f2f2;
+  box-shadow:
+  6px 6px #e74c3c,
+  7px 7px #e74c3c,
+  8px 8px #e74c3c;
+  -webkit-transform: translateX(-4px);
+  transform: translateX(-4px);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  margin: auto;
+
+
+
+}
+nav{
+  width:80%;
+  
+}
+nav .subtitulo{
+  margin-top: 2em;
+  color:#e74c3c;
+  font-size:2em;
+  font-family: arial;
+  margin-bottom: .2em;
+  text-align: center;
+}
+nav .admin{
+  color:black;
+  font-size:1.5em;
+  font-family: arial;
+  margin-bottom: .7em;
+  text-align: center;
+}
+
+nav  .form{
+  font-family: arial;
+  font-size: 1.5em;
+}
+
+nav .form input[type="text"],nav .form input[type="password"]{
+  outline: none;
+  background-color:none;
+  width:100%;
+  font-size:.8em;
+  font-family: arial;
+  border-left:0px;
+  border-top:0px;
+  border-right:0px;
+  border-left: 0px;
+  border-bottom-color: #839192
+}
+
+nav .form input[type="text"]:focus,nav .form input[type="password"] { 
+  border-color:red;
+
+
+
+}
+
+ input[type="submit"]{
+  width: 70%;
+  height: 40px;
+  background: #e74c3c;
+  border: none;
+  font-family: arial;
+  font-size: 1.1em;
+  color: white;
+  align-items: center;
+  margin:40px auto;
+  display: flex;
+  justify-content: center;
+
+}
+ input[type="checkbox"]{
+  width: 0;
+  height: 0px;
+  margin-right: .9em;
+
+}
+  input[type="submit"]:hover{
+  box-shadow:
+  1px 1px #9D260C ,
+  2px 2px #9D260C ,
+  3px 3px #9D260C ;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+     
+
+.icon-user,.icon-unlocked{
+  float: right;
+  font-size:1.3em;
+  color:#87877A;
+}
+
+
+.footer {
+  width: 100%;
+  background-color: #e74c3c;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding:30px auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer p{
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .col-1{
+    width: 90%;
+  } 
+  .footer p{
+  	padding: 1em;
+  	font-size: 1.5em;
+  }
+}
